@@ -1,4 +1,4 @@
-var raxQ = require( './rax-queues' );
+var raxQ = require( './lib/rax-queues' );
 
 module.exports = function( config ){
   this.queues = raxQ( config );
